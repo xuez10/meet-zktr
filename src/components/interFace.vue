@@ -42,7 +42,7 @@
       </div>
       <div class="column">
         <div class="right">
-          <img src="" alt="bigPicture">
+          <img class="bigP" src="../assets/bigPicture.jpg" alt="bigPicture">
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@ export default {
   float: right;
 }
 .column {
-  width: 50%;
+  width: 48%;
   float: left;
   margin : auto;
 }
@@ -154,5 +154,13 @@ input {
 .detail a {
   text-decoration:none;
   color: #0c8d62;
+}
+.bigP {
+  margin-top: 50px;
+  padding: 30px;
+  width: 100%;
+  border: 1px solid #cac9c9a9;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #cac9c9a9;
 }
 </style>
